@@ -1,44 +1,39 @@
 # Design and Prototype of a Two-Legged Walking Robot
 
-## Project Details
+## Project Overview
+A two-member university project focused on designing, prototyping, and assembling a basic two-legged robotic platform. 
+The project involved developing the mechanical structure in SolidWorks, manufacturing components through 3D printing, integrating electronic components, and testing the assembled prototype.
+
+### Project Details
 - **Institution:** Berliner Hochschule für Technik (BHT)
 - **Project Duration:** October 2024 – December 2024
 - **Team:** 2 members
-- **Primary Focus:** Mechanical design, SolidWorks, 3D printing, hardware assembly
 - **Controller:** AB6D Platine developed by BHT
 - **Development Environment:** STM32CubeIDE
 - **Programming Language:** C
 
-## My Main Contribution
-My primary contribution to the project was the mechanical design and physical prototyping of the robot.
+## My Contribution
+My primary contribution focused on the **mechanical design, prototyping, hardware assembly, and component integration** of the robot.
 
 ### Mechanical Design
-- Developed and evaluated multiple mechanical concepts using SolidWorks.
-- Designed the robot structure with consideration for component placement and mechanical assembly.
-- Worked on integrating the electronic components within the limited internal space of the robot.
-- Considered mechanical constraints associated with the robot's intended walking movement.
+- Developed and evaluated multiple mechanical concepts using **SolidWorks**.
+- Designed the robot structure with consideration for mechanical constraints, component placement, and assembly.
+- Designed the internal layout to integrate two XL330 motors, the AB6D Platine, and the battery within the robot's limited
+  internal space.
+- Evaluated the mechanical design with respect to the intended walking motion.
 
-### 3D Printing and Prototyping
-- Assembled the printed components into the physical robot.
-- Evaluated the prototype and identified mechanical and assembly-related limitations.
-- Iterated on the design based on observations from the physical prototype.
+### 3D Printing and Hardware Assembly
+- Manufactured selected mechanical components using **3D printing**.
+- Assembled the printed components together with the electronic hardware.
+- Evaluated the physical prototype to identify mechanical and assembly-related limitations.
+- Iterated on the design based on observations from the prototype.
 
 ### Electronics and Embedded Integration
-The robot used an **AB6D Platine microcontroller developed by BHT** for controlling the system.
-The embedded code was provided as part of the project by the professor. My contribution on the software side was limited to making minor modifications and parameter adjustments in **C using STM32CubeIDE** to support testing of the assembled robot.
+The robot was controlled using the **AB6D Platine**, a microcontroller platform developed by BHT.
+The embedded C code was provided as part of the university project. My software contribution was limited to **minor code modifications and parameter adjustments in STM32CubeIDE** required for testing the assembled prototype.
 
-## Design Process
-The project followed an iterative development approach:
-
-1. Develop initial mechanical concepts in SolidWorks.
-2. Evaluate the concepts with respect to component placement and movement.
-3. Manufacture selected components using 3D printing.
-4. Assemble the mechanical and electronic components.
-5. Test the physical prototype.
-6. Identify mechanical and integration problems.
-7. Modify the design and evaluate possible improvements.
+## Engineering Challenges and Learning
+One of the main challenges was achieving stable walking while preventing the robot from losing balance and falling to either side. This required considering the mechanical structure, component placement, and movement of the robot as an integrated system. Through the project, I also gained basic hands-on experience with C programming on the robot, including making minor code modifications and parameter adjustments for testing the movement.
 
 ## Project Outcome
-The final prototype was able to demonstrate aspects of the intended movement, although it did not achieve the complete walking performance originally targeted.
-
-This was particularly valuable from an engineering perspective because it highlighted the challenges involved in translating a CAD concept into a functional robotic mechanism.
+The final prototype demonstrated aspects of the intended movement, although it did not achieve the complete walking performance originally targeted. This outcome was valuable because it provided practical insight into the challenges of developing a robotic mechanism from **CAD design through fabrication, assembly, and physical testing**, and highlighted areas for further mechanical improvement.
